@@ -1,0 +1,6 @@
+---
+
+- name: Run K3s Bootstrap Script
+  shell: /tmp/k3s-bootstrap.sh
+  environment:
+    K3S_KUBECONFIG_MODE: 0644

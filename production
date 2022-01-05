@@ -1,0 +1,7 @@
+[k3s_master]
+k3s-master.clusterpi.local
+
+[k3s_nodes]
+k3s-node-2.clusterpi.local
+k3s-node-3.clusterpi.local
+k3s-node-4.clusterpi.local

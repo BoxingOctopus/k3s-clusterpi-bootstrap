@@ -1,0 +1,4 @@
+---
+
+k3s_bootstrap_url: "https://get.k3s.io"
+k3s_url: "https://{{ hostvars[k3s_master].ansible_host }}:6443"

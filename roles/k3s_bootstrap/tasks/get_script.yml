@@ -1,0 +1,7 @@
+---
+
+- name: Get K3s Bootstrap Script
+  get_url:
+    url: "{{ k3s_bootstrap_url }}"
+    dest: /tmp/k3s-bootstrap.sh
+    mode: 0755

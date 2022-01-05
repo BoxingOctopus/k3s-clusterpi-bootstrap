@@ -1,0 +1,12 @@
+---
+
+timezone: "America/Toronto"
+standard_packages: [
+  'vim-nox',
+  'htop',
+  'git',
+  'build-essential',
+  'make',
+  'zsh',
+  'neofetch'
+]

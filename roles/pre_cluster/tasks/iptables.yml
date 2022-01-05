@@ -1,0 +1,6 @@
+---
+
+- name: Revert to Legacy iptables
+  community.general.alternatives:
+    name: ip6tables
+    path: /usr/sbin/ip6tables-legacy

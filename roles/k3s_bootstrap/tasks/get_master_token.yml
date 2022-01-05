@@ -1,0 +1,7 @@
+---
+
+- name: Get Token from Master
+  slurp:
+    src: "/var/lib/rancher/k3s/server/node-token"
+  register: k3s_token
+  delegate_to: k3s_master

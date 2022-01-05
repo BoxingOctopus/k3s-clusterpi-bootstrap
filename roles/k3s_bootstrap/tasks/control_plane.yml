@@ -1,0 +1,7 @@
+---
+
+- name: Run K3s Bootstrap Script (Master/Control Plane)
+  shell: /tmp/k3s-bootstrap.sh
+  environment:
+    K3S_KUBECONFIG_MODE: 0644
+  when: inventory_hostname in groups['k3s_master']

@@ -1,0 +1,13 @@
+---
+
+- name: Update Apt Cache
+  apt:
+    update_cache: yes
+
+- name: Update Installed Packages
+  apt:
+    upgrade: dist
+
+- name: Install Some Helpful Packages
+  apt:
+    pkg: "{{ standard_packages }}"
